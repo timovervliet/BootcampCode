@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="none">
+    <test name="dataVar1Test">
+        <parameter name="email" value="heavylifter@feelthepain.com" />
+        <parameter name="password" value="xsw21qaz" />
+        <classes>
+            <class name="testcases.chapterNine.DDT_LogInTest" />
+        </classes>
+    </test>
+    <test name="dataVar2Test">
+        <parameter name="email" value="hipster@tester.com" />
+        <parameter name="password" value="pswpsw123" />
+        <classes>
+            <class name="testcases.chapterNine.DDT_LogInTest" />
+        </classes>
+    </test>
+    <test name="dataVar3Test">
+        <parameter name="email" value="feelfit@nopainnogain.com" />
+        <parameter name="password" value="password" />
+        <classes>
+            <class name="testcases.chapterNine.DDT_LogInTest" />
+        </classes>
+    </test>
+    <test name="dataVar4Test">
+        <parameter name="email" value="test@guru.com" />
+        <parameter name="password" value="asdfghjk" />
+        <classes>
+            <class name="testcases.chapterNine.DDT_LogInTest" />
+        </classes>
+    </test>
+    <test name="dataVar5Test">
+        <parameter name="email" value="cross@fit.com" />
+        <parameter name="password" value="crossfit" />
+        <classes>
+            <class name="testcases.chapterNine.DDT_LogInTest" />
+        </classes>
+    </test>
+</suite>
